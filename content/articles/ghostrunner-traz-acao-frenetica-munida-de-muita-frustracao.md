@@ -1,9 +1,9 @@
 ---
-title: Post 2
+title: Ghostrunner traz ação frenética munida de muita frustração
 subtitle: Lorem ipsum dolor sit amet
 image:
-    url: https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2019/08/10220943/Dororo-animacao.jpg
-    alt: Dororo
+    url: https://gamernews.com.br/wp-content/uploads/2020/10/gamernews-ghostrunner-adiado-switch.jpg
+    alt: Ghostrunner
 author:
     name: Juan Gomes Macário
     username: crashunix

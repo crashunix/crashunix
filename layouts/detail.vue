@@ -1,6 +1,6 @@
 <template>
   <div class="lg:h-screen lg:flex">
-    <Sidebar />
+    <Sidebar type="detail" />
     <div class="flex-1 h-full overflow-y-auto px-8">
       <Header />
       <Nuxt />
