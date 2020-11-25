@@ -2,6 +2,7 @@
   <div class="pt-10 pb-20">
     <div class="container mx-auto space-y-4">
       <h1 class="text-2xl lg:text-4xl lg:w-3/5">{{ article.title }}</h1>
+      <p>{{ $moment(article.updatedAt).fromNow() }}</p>
       <div class="flex items-center space-x-2">
         <p>by <span class="font-semibold">{{ article.author.name }}</span></p>
       </div>
@@ -25,5 +26,8 @@ export default {
 <style>
 .nuxt-content h2 {
   @apply text-xl text-gray-800;
+}
+.nuxt-content p {
+  @apply my-5 text-gray-700;
 }
 </style>
