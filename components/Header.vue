@@ -2,9 +2,9 @@
   <div>
     <header>
       <div class="container mx-auto h-16 lg:h-32 flex justify-center lg:justify-between items-center">
-        <h2 v-if="type == 'detail'" class="text-2xl transition duration-500">{{$nuxt.$route.name | capitalize}}</h2>
-        <h2 v-else class="text-2xl">crashunix</h2>
-        <nav class="hidden lg:flex space-x-6">
+        <h2 v-if="type == 'detail'" class="text-2xl transition duration-500 ease-in-out text-black dark:text-white">{{$nuxt.$route.name | capitalize}}</h2>
+        <h2 v-else class="text-2xl duration-500 ease-in-out text-black dark:text-white">crashunix</h2>
+        <nav class="hidden lg:flex space-x-6 duration-500 ease-in-out text-black dark:text-white">
           <nuxt-link to="/">Home</nuxt-link>
           <nuxt-link to="/">Projetos</nuxt-link>
           <nuxt-link to="/">Sobre</nuxt-link>
