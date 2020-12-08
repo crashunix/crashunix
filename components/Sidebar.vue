@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed lg:sticky px-6 lg:p-0 h-16 lg:h-full w-full lg:w-16 lg:w-32 border-r border-gray-200 dark:border-black flex lg:flex-col justify-between transition-colors duration-500 ease-in-out z-10 dark:bg-black" :class="{white_sidebar: scrollPosition > 50}">
+  <div class="fixed lg:sticky px-6 lg:p-0 h-16 lg:h-full w-full lg:w-16 lg:w-32 border-r border-gray-200 dark:border-black flex lg:flex-col justify-between transition-colors duration-500 ease-in-out z-10 dark:bg-black" :class="{dnmc_sidebar: scrollPosition > 50}">
     <div class="h-16 lg:h-32 flex justify-center items-center">
         <svg v-if="type != 'detail'" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code stroke-current text-black dark:text-white transition-colors duration-500 ease-in-out"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
         <a v-else @click="$router.go(-1)" class="cursor-pointer">
@@ -13,7 +13,7 @@
   </div>
 </template>
 <style>
-  .white_sidebar {
+  .dnmc_sidebar {
     @apply bg-white;
   }
 </style>

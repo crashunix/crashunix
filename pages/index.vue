@@ -5,7 +5,6 @@
     <About />
     <Blog :articles="articles" />
     <Gallery :images="images" />
-    <Footer />
   </div>
 </template>
 

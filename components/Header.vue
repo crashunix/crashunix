@@ -6,11 +6,11 @@
         <h2 v-else class="text-2xl duration-500 ease-in-out text-black dark:text-white">crashunix</h2>
         <nav class="hidden lg:flex space-x-6 duration-500 ease-in-out text-black dark:text-white">
           <nuxt-link to="/">Home</nuxt-link>
-          <nuxt-link to="/">Projetos</nuxt-link>
-          <nuxt-link to="/">Sobre</nuxt-link>
-          <nuxt-link to="/">Blog</nuxt-link>
-          <nuxt-link to="/">Galeria</nuxt-link>
-          <nuxt-link to="/">Contato</nuxt-link>
+          <nuxt-link to="/projects">Projetos</nuxt-link>
+          <nuxt-link to="/about">Sobre</nuxt-link>
+          <nuxt-link to="/blog">Blog</nuxt-link>
+          <nuxt-link to="/gallery">Galeria</nuxt-link>
+          <nuxt-link to="/contact">Contato</nuxt-link>
         </nav>
       </div>
     </header>
